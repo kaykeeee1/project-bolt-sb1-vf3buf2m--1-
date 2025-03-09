@@ -8,16 +8,16 @@ function App() {
   
   const projects = [
     {
-      title: "Project 1",
-      description: "Description of project 1",
-      link: "https://github.com/yourusername/project1",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600"
+      title: "Projeto 1",
+      description: "Descriçao do projeto 1",
+      link: "https://ate1.netlify.app/",
+      image: "https://github.com/kaykeeee1/foto/blob/main/Captura%20de%20tela%202025-03-09%20144412.png?raw=true"
     },
     {
-      title: "Project 2",
-      description: "Description of project 2",
-      link: "https://github.com/yourusername/project2",
-      image: "https://images.unsplash.com/photo-1503437313881-503a91226402?auto=format&fit=crop&q=80&w=600"
+      title: "Projeto 2",
+      description: "Descriçao do projeto 2",
+      link: "https://consufacil.netlify.app/",
+      image: "https://github.com/kaykeeee1/foto/blob/main/Captura%20de%20tela%202025-03-09%20144327.png?raw=true"
     }
   ];
 
@@ -75,7 +75,7 @@ function App() {
               className="mt-8"
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                Kayke José Evangelista dos Santos
+                Kayke 
               </h1>
               <p className="text-xl md:text-2xl text-blue-200 mb-8">Desenvolvedor Full Stack</p>
               <div className="flex gap-6 justify-center">
@@ -111,16 +111,13 @@ function App() {
             className="max-w-3xl mx-auto"
           >
             <p className="text-lg text-gray-300 leading-relaxed">
-              Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. 
-              Com experiência em desenvolvimento web full stack, trabalho com tecnologias 
-              modernas como React, Node.js e TypeScript. Busco constantemente aprender 
-              novas tecnologias e aprimorar minhas habilidades.
+            Desenvolvedor full stack web e mobile, especializado em arquiteturas escaláveis e alto desempenho. Trabalho com React, React Native, Node.js, TypeScript, Python e Kotlin, desenvolvendo aplicações robustas e eficientes. Tenho experiência em APIs RESTful, integração com Firebase, bancos de dados SQL e NoSQL, além de otimização de performance e boas práticas de desenvolvimento. Busco constantemente aprimorar minhas habilidades e acompanhar as tendências do setor para criar soluções inovadoras e de alta qualidade.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projectos Section */}
       <section className="py-24 bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionTitle>Projetos</SectionTitle>
@@ -160,7 +157,7 @@ function App() {
         </div>
       </section>
 
-      {/* Floating Contact Button */}
+      {/*  Contacto Button */}
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
